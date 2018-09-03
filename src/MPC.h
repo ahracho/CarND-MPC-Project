@@ -5,6 +5,8 @@
 #include "Eigen-3.3/Eigen/Core"
 
 using namespace std;
+extern size_t N;
+extern const double Lf;
 
 class MPC {
  public:
